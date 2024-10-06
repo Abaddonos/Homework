@@ -12,3 +12,5 @@ while count < len(my_list):
     elif number < 0:
         print('Встречено отрицательное число')
         break
+
+
