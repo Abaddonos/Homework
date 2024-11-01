@@ -1,16 +1,16 @@
-a = (1, 2, 3)  # tuple = кортеж
-print(type(a)) # tuple = кортеж
+#a = (1, 2, 3)  # tuple = кортеж
+#print(type(a)) # tuple = кортеж
 
-b = [1, 2, 3]  # list = список
-print(type(b)) # list = список
+#b = [1, 2, 3]  # list = список
+#print(type(b)) # list = список
 
-c = {1, 2, 3, 3} # set = множество
-print(type(c)) # set = множество
+#c = {1, 2, 3, 3} # set = множество
+#print(type(c)) # set = множество
 
-d = {1: 10, 2: 100, 3: 1000} # dict = словарь
-print(type(d)) # dict = словарь
+#d = {1: 10, 2: 100, 3: 1000} # dict = словарь
+#print(type(d)) # dict = словарь
 
-print(a, b, c, d)
+#print(a, b, c, d)
 
             #Важно
             #Не передавайте списки задавая по умолчанию пустой список или другой изменяемый тип данных!
@@ -21,3 +21,4 @@ print(a, b, c, d)
                 #if list_my is None:
             #list_my = []
             #list_my.append(item)
+
