@@ -3,4 +3,3 @@ def divide(first, second):
     if second == 0:
         return inf
     return first / second
-print(divide(10, 0))
