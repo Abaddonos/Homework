@@ -6,4 +6,3 @@ data_structure = [
   ((), [{(2, 'Urban', ('Urban2', 35))}])
 ]
 def  calculate_structure_sum(data_structure):
-  
