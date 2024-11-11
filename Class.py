@@ -1,3 +1,4 @@
+#https://github.com/Abaddonos/Homework/blob/detached2/Class.py
 class House:
     def __init__(self, name, number_of_floors):
         self.name = name
