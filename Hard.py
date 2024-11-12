@@ -10,5 +10,5 @@ average_gr.update({students[0]: sum(grades[0]) / len(grades[0]),
                    students[4]: sum(grades[4]) / len(grades[4])})
 print(average_gr)
 print(average_gr['Steve'])
-# долго искал способ автоматизировать присвоение значения ключам, чтобы не расписывать строки вручную, но не нашел
+
 
