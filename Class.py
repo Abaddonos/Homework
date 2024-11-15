@@ -47,9 +47,6 @@ class House:
         if isinstance(value, int):
             self.number_of_floors += value
         return self
-    def __gadd__(self, value):
-        if isinstance(value, int):
-            self.number_of_floors = self.number_of_floors * value
 h1 = House('ЖК Эльбрус', 10)
 h2 = House('ЖК Акация', 20)
 print(h1)
