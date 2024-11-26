@@ -7,9 +7,10 @@ class Animal:
         self.sound = None
     speed = 10
     def move(self, dx, dy, dz):
-        self._cords = dx + speed
-        self._cords = dy
-        self._cords = dz
+        super().__init__(dx, dy, dz)
+        self._cords += dx
+        self._cords += dy
+        self._cords += dz
         if dz < 0:
             print("It's too deep, i can't dive :(")
     def get_cords(self):
