@@ -1,13 +1,12 @@
 import random
 class Animal:
-    _cords = [0, 0, 0]
-    def __init__(self, name, _cords):
-        self.name = name
+    def __init__(self, _cords = [0, 0, 0]):
+        #self.name = name
         self.live = True
         self.sound = None
     speed = 10
     def move(self, dx, dy, dz):
-        super().__init__(dx, dy, dz)
+        #super().__init__(dx, dy, dz)
         self._cords += dx
         self._cords += dy
         self._cords += dz
