@@ -15,13 +15,13 @@ class Vehicle:
         self.get_model()
         self.get_horsepower()
         self.get_color()
-        print(f'Владелец: {self.owner}\n')
+        print(f'Владелец: {self.owner}')
     def set_color(self, new_color):
         new_colors = [color.lower() for color in self.__COLOR_VARIANTS]
         if new_color.lower() in new_colors:
             self.__color = new_color
         else:
-            print(f'Нельзя сменить цвет на {new_color}\n')
+            print(f'Нельзя сменить цвет на {new_color}')
 class Sedan(Vehicle):
     __PASSENGERS_LIMIT = 5
 
