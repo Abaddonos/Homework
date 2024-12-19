@@ -14,7 +14,6 @@ class Shop:
         file.close()
         return prod_str
     def add(self, *products):
-        #file_get = self.get_products()
         for i in products:
             if self.get_products().find(f'{i.name},') == 1:
                 file = open(self.__file_name, 'a')
